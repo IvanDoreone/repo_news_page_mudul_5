@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 400px;
+    background-color: #d0d1d3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(https://images.unsplash.com/photo-1503601350100-26336a6beda2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80) bottom no-repeat;
+    background-size: cover;
+}
+header h1 {
+    color: rgb(236, 187, 119);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+}
+footer {
+    padding-top: 30px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.links>a {
+    padding: 0 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(104, 103, 103);
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    
+}
+.copyright {
+   
+   margin-top: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.95rem;
+    color: rgb(104, 103, 103);
+}
+.news {
+    background-color: #fff;
+    padding: 10px 0 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+article {
+    margin: 0 auto 5px;
+    width: 762px;
+    padding: 6px 15px;
+    border-bottom: 1px solid rgb(104, 103, 103);
+}
+article a {
+    text-decoration: none;
+    color: rgb(59, 64, 70);
+}
+article a:hover {
+    color: rgb(35, 35, 219);
+}
+
+
+article h2 {
+    margin-bottom: 5px;
+    
+}
+.article-meta {
+    color: rgb(57, 56, 56);
+    font-size: 0.9rem;
+}
+article p {
+   
+    color: rgb(57, 56, 56);
+    font-size: 0.9rem;
+}
+.cropimg {
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+    width: 100%;
+ }
+ .cropimg img {
+     position: relative;
+     transform: translateY(-40%);
+     object-fit: cover;
+     height: 500px;
+    width: 100%;
+ }
+ .cropimg1 {
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+    width: 100%;
+ }
+ .cropimg1 img {
+     position: absolute;
+     transform: translateY(-10%);
+     object-fit: cover;
+     height: 400px;
+    width: 100%;
+ }
+ 
+ .cropimg2 {
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+    width: 100%;
+ }
+ .cropimg2 img {
+    position: absolute;
+    transform: translateY(-20%);
+    height: 500px;
+    width: 100%;
+ }
+ .cropimg3 {
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+    width: 100%;
+ }
+ .cropimg3 img {
+    position: absolute;
+    transform: translateY(-30%);  
+    height: 500px;
+    width: 100%;
+ }
+ .cropimg4 {
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+    width: 100%;
+ }
+ .cropimg4 img {
+    position: absolute;
+    transform: translateY(-30%);
+    height: 500px;
+    width: 100%;
+ }
+ article:nth-child(even) {
+    background-color: rgb(182, 163, 156);
+ }
+ .brakingnews::before {
+    content: "NEW! ";
+    color: #fff;
+    background-color: darkred;
+
+ }
